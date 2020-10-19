@@ -14,3 +14,7 @@ If Scoop isn't installed yet, you can install it with:
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 iwr -useb 'https://raw.fastgit.org/kidonng/Install/raw/fastgit/install.ps1' | iex
 ```
+
+## License
+
+[GPL-3.0](LICENSE)
