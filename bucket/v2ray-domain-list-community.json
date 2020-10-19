@@ -24,7 +24,7 @@
   "persist": "geosite.dat.bak",
   "checkver": "github",
   "autoupdate": {
-    "url": "https://github.com/v2fly/domain-list-community/releases/download/$version/dlc.dat",
+    "url": "https://download.fastgit.org/v2fly/domain-list-community/releases/download/$version/dlc.dat",
     "hash": { "url": "$url.sha256sum" }
   }
 }

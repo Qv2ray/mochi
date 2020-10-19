@@ -18,7 +18,7 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/trojan-gfw/trojan/releases/download/v$version/trojan-$version-win.zip"
+        "url": "https://download.fastgit.org/trojan-gfw/trojan/releases/download/v$version/trojan-$version-win.zip"
       }
     }
   }

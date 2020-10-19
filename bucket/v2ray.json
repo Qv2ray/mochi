@@ -19,10 +19,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
+        "url": "https://download.fastgit.org/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-64.zip"
       },
       "32bit": {
-        "url": "https://github.com/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
+        "url": "https://download.fastgit.org/v2fly/v2ray-core/releases/download/v$version/v2ray-windows-32.zip"
       }
     },
     "hash": { "url": "$url.dgst", "regex": "SHA512= $sha512" }

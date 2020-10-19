@@ -24,11 +24,11 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x64.zip",
+        "url": "https://download.fastgit.org/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x64.zip",
         "extract_dir": "naiveproxy-v$version-win-x64"
       },
       "32bit": {
-        "url": "https://github.com/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x86.zip",
+        "url": "https://download.fastgit.org/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x86.zip",
         "extract_dir": "naiveproxy-v$version-win-x86"
       }
     }

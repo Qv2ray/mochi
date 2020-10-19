@@ -21,10 +21,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v$version/trojan-go-windows-amd64.zip"
+        "url": "https://download.fastgit.org/p4gefau1t/trojan-go/releases/download/v$version/trojan-go-windows-amd64.zip"
       },
       "32bit": {
-        "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v$version/trojan-go-windows-386.zip"
+        "url": "https://download.fastgit.org/p4gefau1t/trojan-go/releases/download/v$version/trojan-go-windows-386.zip"
       }
     }
   }

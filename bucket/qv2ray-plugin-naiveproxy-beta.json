@@ -41,10 +41,10 @@
   "autoupdate": {
     "architecture": {
       "64bit": {
-        "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v$version/QvPlugin-NaiveProxy.v$version.Windows-x64.dll"
+        "url": "https://download.fastgit.org/Qv2ray/QvPlugin-NaiveProxy/releases/download/v$version/QvPlugin-NaiveProxy.v$version.Windows-x64.dll"
       },
       "32bit": {
-        "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v$version/QvPlugin-NaiveProxy.v$version.Windows-x86.dll"
+        "url": "https://download.fastgit.org/Qv2ray/QvPlugin-NaiveProxy/releases/download/v$version/QvPlugin-NaiveProxy.v$version.Windows-x86.dll"
       }
     },
     "hash": {
