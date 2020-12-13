@@ -14,7 +14,7 @@ If Scoop isn't installed yet, you can install it with:
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-iwr -useb 'https://raw.fastgit.org/kidonng/Install/fastgit/install.ps1' | iex
+iwr -useb 'https://raw.fastgit.org/kidonng/scoop-install/fastgit/install.ps1' | iex
 ```
 
 Also checkout [`sushi`](https://github.com/kidonng/sushi) which provides additional resources that do not suit in this bucket.
