@@ -2,6 +2,8 @@
 
 The official [Scoop](https://scoop.sh/) bucket for [Qv2ray](https://qv2ray.net/) applications and plugins, along with their dependencies. Optimized for Mainland China users via [FastGit](https://fastgit.org/).
 
+**Please refer to [`sushi`](https://github.com/kidonng/sushi) for additional resources and issue report.**
+
 ## Usage
 
 ```powershell
@@ -16,8 +18,6 @@ If Scoop isn't installed yet, you can install it with:
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 iwr -useb 'https://raw.fastgit.org/kidonng/scoop-install/fastgit/install.ps1' | iex
 ```
-
-Also checkout [`sushi`](https://github.com/kidonng/sushi) which provides additional resources that do not suit in this bucket.
 
 ## License
 
