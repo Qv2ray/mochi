@@ -9,10 +9,10 @@ cp $tmp/extras/bucket/qv2ray.json bucket/
 cp $tmp/sushi/bucket/{qv2ray-beta,qv2ray-plugin-command-beta,qv2ray-plugin-command,qv2ray-plugin-naiveproxy-beta,qv2ray-plugin-naiveproxy,qv2ray-plugin-ss-beta,qv2ray-plugin-ss,qv2ray-plugin-ssr-beta,qv2ray-plugin-ssr,qv2ray-plugin-trojan-beta,qv2ray-plugin-trojan-go-beta,qv2ray-plugin-trojan-go,qv2ray-plugin-trojan,trojan-go,v2ray-domain-list-community,v2ray-geoip,v2ray-rules-dat,xray}.json bucket/
 
 sed -E -i 's/github\.com\/(.+)\/releases\/download/download.fastgit.org\/\1\/releases\/download/' bucket/*
-sed -E -i 's/sushi\//mochi\//'
-sed -E -i 's/"extras\/qv2ray"/"mochi\/qv2ray"/'
-sed -E -i 's/"v2ray",/"mochi\/v2ray",/'
-sed -E -i 's/"naiveproxy"/"mochi\/naiveproxy"/'
+sed -E -i 's/sushi\//mochi\//' bucket/*
+sed -E -i 's/"extras\/qv2ray"/"mochi\/qv2ray"/' bucket/*
+sed -E -i 's/"v2ray",/"mochi\/v2ray",/' bucket/*
+sed -E -i 's/"naiveproxy"/"mochi\/naiveproxy"/' bucket/*
 
 # https://stackoverflow.com/a/25149786
 if [[ `git status --porcelain --untracked-files=no` ]]; then
