@@ -2,7 +2,7 @@
     "version": "2.7.0-pre2",
     "description": "Graphical frontend for v2ray (beta)",
     "homepage": "https://github.com/Qv2ray/Qv2ray",
-    "license": "GPL-3.0-or-later",
+    "license": "GPL-3.0-only",
     "suggest": {
         "v2ray": "mochi/v2ray",
         "vcredist": "extras/vcredist2019"
@@ -53,7 +53,7 @@
             }
         },
         "hash": {
-            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v$version/sha256.list"
+            "url": "https://download.fastgit.org/Qv2ray/Qv2ray/releases/download/v$version/sha256.list"
         }
     }
 }

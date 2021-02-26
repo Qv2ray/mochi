@@ -2,7 +2,7 @@
     "version": "3.0.0-pre3",
     "description": "Trojan-Go plugin for Qv2ray (beta)",
     "homepage": "https://github.com/Qv2ray/QvPlugin-Trojan-Go",
-    "license": "GPL-3.0-or-later",
+    "license": "GPL-3.0-only",
     "depends": [
         "mochi/qv2ray-beta",
         "mochi/trojan-go"
@@ -51,7 +51,7 @@
             }
         },
         "hash": {
-            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v$version/sha256.list"
+            "url": "https://download.fastgit.org/Qv2ray/QvPlugin-Trojan-Go/releases/download/v$version/sha256.list"
         }
     }
 }
