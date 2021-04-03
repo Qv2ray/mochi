@@ -4,9 +4,9 @@ git clone https://github.com/ScoopInstaller/Main $tmp/main -b master --depth 1
 git clone https://github.com/lukesampson/scoop-extras $tmp/extras -b master --depth 1
 git clone https://github.com/kidonng/sushi $tmp/sushi -b master --depth 1
 
-cp $tmp/main/bucket/{naiveproxy,trojan,v2ray}.json bucket/
+cp $tmp/main/bucket/{naiveproxy,trojan,v2ray,xray}.json bucket/
 cp $tmp/extras/bucket/qv2ray.json bucket/
-cp $tmp/sushi/bucket/{qv2ray-beta,qv2ray-plugin-command-beta,qv2ray-plugin-command,qv2ray-plugin-naiveproxy-beta,qv2ray-plugin-naiveproxy,qv2ray-plugin-ss-beta,qv2ray-plugin-ss,qv2ray-plugin-ssr-beta,qv2ray-plugin-ssr,qv2ray-plugin-trojan-beta,qv2ray-plugin-trojan-go-beta,qv2ray-plugin-trojan-go,qv2ray-plugin-trojan,trojan-go,v2ray-domain-list-community,v2ray-geoip,v2ray-rules-dat,xray}.json bucket/
+cp $tmp/sushi/bucket/{qv2ray-beta,qv2ray-plugin-command-beta,qv2ray-plugin-command,qv2ray-plugin-naiveproxy-beta,qv2ray-plugin-naiveproxy,qv2ray-plugin-ss-beta,qv2ray-plugin-ss,qv2ray-plugin-ssr-beta,qv2ray-plugin-ssr,qv2ray-plugin-trojan-beta,qv2ray-plugin-trojan-go-beta,qv2ray-plugin-trojan-go,qv2ray-plugin-trojan,trojan-go,v2ray-domain-list-community,v2ray-geoip,v2ray-rules-dat}.json bucket/
 
 sed -E -i 's/github\.com\/(.+)\/releases\/download/download.fastgit.org\/\1\/releases\/download/' bucket/*
 sed -E -i 's/sushi\//mochi\//' bucket/*
