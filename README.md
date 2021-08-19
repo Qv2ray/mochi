@@ -12,12 +12,7 @@ scoop bucket add mochi https://hub.fastgit.org/Qv2ray/mochi
 scoop install mochi/qv2ray mochi/v2ray
 ```
 
-If Scoop isn't installed yet, you can install it with:
-
-```powershell
-Set-ExecutionPolicy RemoteSigned -scope CurrentUser
-iwr -useb 'https://raw.fastgit.org/kidonng/scoop-install/fastgit/install.ps1' | iex
-```
+Please visit [Mira](https://mira.xuann.wang/Scoop.html) for Scoop installation instructions.
 
 ## License
 
