@@ -1,4 +1,4 @@
-tmp=`mktemp -d`
+tmp=$(mktemp -d)
 
 git clone https://github.com/ScoopInstaller/Main $tmp/main -b master --depth 1
 git clone https://github.com/lukesampson/scoop-extras $tmp/extras -b master --depth 1
@@ -15,7 +15,7 @@ sed -E -i 's/"v2ray",/"mochi\/v2ray",/' bucket/*
 sed -E -i 's/"naiveproxy"/"mochi\/naiveproxy"/' bucket/*
 
 # https://stackoverflow.com/a/25149786
-if [[ `git status --porcelain --untracked-files=no` ]]; then
+if [[ $(git status --porcelain --untracked-files=no) ]]; then
   git add -u
   git config user.name "github-actions[bot]"
   git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
